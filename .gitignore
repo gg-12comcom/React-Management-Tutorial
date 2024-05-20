@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
@@ -142,3 +143,64 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+=======
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.yarn
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.eslintcache
+
+/.idea
+/.vscode
+
+/src/styles/tailwind.css
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+#amplify-do-not-edit-begin
+amplify/
+#amplify/\#current-cloud-backend
+#amplify/.config/local-*
+#amplify/logs
+#amplify/mock-data
+#amplify/mock-api-resources
+#amplify/backend/amplify-meta.json
+#amplify/backend/.temp
+build/
+dist/
+node_modules/
+aws-exports.js
+awsconfiguration.json
+amplifyconfiguration.json
+amplifyconfiguration.dart
+amplify-build-config.json
+amplify-gradle-config.json
+amplifytools.xcconfig
+.secret-*
+**.sample
+#amplify-do-not-edit-end
+>>>>>>> 09604e59749a7ccc1262ecc7df318f2cabaa37f1
